@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Meme Generator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="creatememe">CREATE</string>
+    <string name="top_meme_text">Top</string>
+    <string name="checkmeme">CHECK</string>
+    <string name="bottom_meme_text">Bottom</string>
+</resources>

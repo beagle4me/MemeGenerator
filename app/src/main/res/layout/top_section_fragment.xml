@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="200dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topTextinput"
+        android:hint="Top meme slang"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:width="350dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomTextinput"
+        android:hint="Bottom meme slang"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/topTextinput"
+        android:layout_margin="15dp"
+        android:width="350dp"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creatememe"
+        android:id="@+id/create"
+
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkmeme"
+        android:id="@+id/check"
+        android:layout_marginTop="12dp"
+         />
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>
